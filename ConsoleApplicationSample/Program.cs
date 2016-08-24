@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Configuration;
-using ClassLibrarySample.Properties;
+using LibSettings = ClassLibrarySample.Properties.Settings;
+using AppSettings = ConsoleApplicationSample.Properties.Settings;
 
 namespace ConsoleApplicationSample
 {
@@ -9,7 +10,9 @@ namespace ConsoleApplicationSample
         static void Main(string[] args)
         {
             Console.WriteLine(ConfigurationManager.ConnectionStrings["DbConnection"].ConnectionString);
-            Console.WriteLine(Settings.Default.LibS1);
+            Console.WriteLine("LibS1: {0}", LibSettings.Default.LibS1);
+            Console.WriteLine("AppS1: {0}", AppSettings.Default.AppS1);
+            
             Console.ReadLine();
         }
     }

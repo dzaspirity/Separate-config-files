@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConsoleApplicationSample.Properties {
+namespace WebApplicationSample.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -25,10 +25,10 @@ namespace ConsoleApplicationSample.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("v1")]
-        public string AppS1 {
+        [global::System.Configuration.DefaultSettingValueAttribute("V1")]
+        public string WebS1 {
             get {
-                return ((string)(this["AppS1"]));
+                return ((string)(this["WebS1"]));
             }
         }
     }

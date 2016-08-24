@@ -70,15 +70,15 @@
       <DependentUpon>App.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
-    <None Include="App_config\ClassLibrarySample.config">
+    <None Include="App_config\ClassLibrarySample.Properties.Settings.config">
       <TransformOnBuild>true</TransformOnBuild>
     </None>
-    <None Include="App_config\ClassLibrarySample.Debug.config">
-      <DependentUpon>ClassLibrarySample.config</DependentUpon>
+    <None Include="App_config\ClassLibrarySample.Properties.Settings.Debug.config">
+      <DependentUpon>ClassLibrarySample.Properties.Settings.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
-    <None Include="App_config\ClassLibrarySample.Release.config">
-      <DependentUpon>ClassLibrarySample.config</DependentUpon>
+    <None Include="App_config\ClassLibrarySample.Properties.Settings.Release.config">
+      <DependentUpon>ClassLibrarySample.Properties.Settings.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
     <None Include="App_config\connectionStrings.config">
@@ -90,6 +90,17 @@
     </None>
     <None Include="App_config\connectionStrings.Release.config">
       <DependentUpon>connectionStrings.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_config\ConsoleApplicationSample.Properties.Settings.config">
+      <TransformOnBuild>true</TransformOnBuild>
+    </None>
+    <None Include="App_config\ConsoleApplicationSample.Properties.Settings.Debug.config">
+      <DependentUpon>ConsoleApplicationSample.Properties.Settings.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_config\ConsoleApplicationSample.Properties.Settings.Release.config">
+      <DependentUpon>ConsoleApplicationSample.Properties.Settings.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
     <None Include="packages.config" />
